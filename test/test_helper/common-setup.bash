@@ -3,6 +3,16 @@
 _common_setup() {
     load 'test_helper/bats-support/load'
     load 'test_helper/bats-assert/load'
+
+    #  for brew installations
+    # TEST_BREW_PREFIX="$(brew --prefix)"
+    # load "${TEST_BREW_PREFIX}/lib/bats-support/load.bash"
+    # load "${TEST_BREW_PREFIX}/lib/bats-assert/load.bash"
+
+    # for npm installations
+    # load '../node_modules/bats-support/load'
+    # load '../node_modules/bats-assert/load'
+
     # get the containing directory of this file
     # use $BATS_TEST_FILENAME instead of ${BASH_SOURCE[0]} or $0,
     # as those will point to the bats executable's location or the preprocessed file respectively

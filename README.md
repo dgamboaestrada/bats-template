@@ -4,6 +4,22 @@ Template for Bash Automated Testing System (BATS) tests.
 
 Based on the [BATS tutorial](https://bats-core.readthedocs.io/en/stable/tutorial.html#).
 
+## Install BATS
+
+**macOS:**
+```bash
+brew tap kaos/shell
+brew install bats-core
+brew install bats-support
+brew install bats-assert
+brew install bats-file
+```
+
+**Ubuntu/Debian:**
+```bash
+sudo apt install bats
+```
+
 ## Project Structure
 
 ```
@@ -96,6 +112,9 @@ Focus on specific tests during development:
 
 ## Resources
 
-- [BATS Core](https://github.com/bats-core/bats-core)
 - [BATS Tutorial](https://bats-core.readthedocs.io/en/stable/tutorial.html#)
 - [BATS Usage](https://bats-core.readthedocs.io/en/stable/usage.html)
+- [BATS Docs](https://github.com/bats-core/bats-docs)
+- [BATS Core](https://github.com/bats-core/bats-core)
+- [bats-support](https://github.com/bats-core/bats-support)
+- [bats-assert](https://github.com/bats-core/bats-assert)
